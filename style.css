@@ -1,0 +1,253 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  body
+{
+    min-height: 100vh;
+    overflow-x:  hidden;
+ background: linear-gradient(#0c123d, #212864, #3f477e);
+
+}
+
+header
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 30px 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 10000;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+header ul li
+{
+  list-style: none;
+  margin-left: 1px;
+  background: lightslategray, transparent;
+  padding-left: 5px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 5px 10px;
+    color:#fff;
+    
+}
+
+header ul li a:hover
+{
+   color: #779eb2;
+   font-family: 'Playfair Display';
+   font-style: italic;
+   font-weight: 600;
+   background: lightslategray,
+   
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section::before
+{
+ content: '';
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 100px;
+ background: linear-gradient(to top, #1c0522,#06041c,transparent);
+ z-index: 1000;
+}
+
+section img#moon
+{
+ mix-blend-mode: screen;
+}
+
+section img#mountain_front
+{
+ z-index: 100;
+}
+
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(120px);
+}
+
+#homepagetext
+{
+ position: absolute;
+ color: white;
+ font-family: 'Playfair Display';
+ font-style: italic;
+ font-weight: 800;
+ white-space: nowrap;
+ font-size: 8vw;
+ font
+ z-index: 9;
+}
+
+#sec p
+{
+   color: white;
+   font-family: 'Playfair Display';
+   transform: translateX();
+   font-weight: 50;
+   font-size: 20px;
+   padding-right: 15px;
+   font-style: oblique;
+   transform: translateX(25px);
+}
+
+#about
+{
+ font-family: 'Playfair Display';
+ font-weight: 900;
+ font-size: 30px;
+ color: #fff;
+ font-style: italic;
+ font-weight: 700;
+ 
+}
+
+#head
+{
+    color: #fff;
+   font-family: 'Playfair Display';
+   font-style: italic;
+   font-weight: 600;
+   font-size: 25px;
+   padding: 10px 15px;
+}
+
+#lightyearlist
+{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    transform: translateX(100px);
+}
+
+#nameandlist
+{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    transform: translateX(100px);
+}
+
+#lightyears
+{
+ font-family: 'Playfair Display';
+ font-weight: 900;
+ font-size: 30px;
+ color: #fff;
+ font-style: italic;
+ font-weight: 700;
+ }
+
+ #ourmemberstext
+ {
+    color: white;
+    font-family: 'Playfair Display';
+    transform: translateX();
+    font-weight: 50;
+    font-size: 20px;
+    padding-right: 15px;
+    font-style: oblique;
+    transform: translateX(25px);
+ }
+
+
+ #ourmembers
+ {
+    color: white;
+    font-family: 'Playfair Display';
+    transform: translateX();
+    font-weight: 50;
+    font-size: 20px;
+    padding-right: 15px;
+    font-style: oblique;
+    transform: translateX(25px);
+    align-items: last baseline;
+ }
+  
+#ig
+ {
+   padding-right: 15px;
+    font-style: oblique;
+    transform: translateX(25px);
+ }
+
+ #yt
+ {
+    padding-right: 15px;
+    font-style: oblique;
+    transform: translateX(25px);
+ }
+
+#mail
+{
+    padding-right: 15px;
+    font-style: oblique;
+    transform: translateX(25px);
+}
+ 
+#top
+{ 
+    transform: translateX(1460px);
+}
